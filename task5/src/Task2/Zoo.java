@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Zoo {
     ArrayList<String> animals;
 
-    Zoo() {
+    public Zoo() {
         this.animals = new ArrayList<>();
     }
 
@@ -26,5 +26,9 @@ public class Zoo {
         animals.add(5, "elephant");
         animals.add(6, "lion");
         animals.add(7, "bear");
+    }
+
+    public ArrayList<String> getAnimals() {
+        return animals;
     }
 }
